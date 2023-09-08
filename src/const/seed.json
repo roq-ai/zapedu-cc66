@@ -1,0 +1,1782 @@
+[
+  {
+    "agent": [
+      {
+        "id": "7ecd329e-379e-4ca7-9d4e-9783020b18b2",
+        "uid": "123456",
+        "name": "Agent A",
+        "system_prompt": "How can I assist you today?",
+        "context": "Sales",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Provide excellent service",
+        "extra_prompts": "Is there anything else I can help you with?",
+        "created_at": "2023-09-08T14:47:22.209Z",
+        "updated_at": "2023-09-08T14:16:37.086Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "556647b6-fee2-4dc1-afee-a3b589913cea",
+        "uid": "789012",
+        "name": "Agent B",
+        "system_prompt": "Welcome! How may I help you?",
+        "context": "Support",
+        "domain": "Finance",
+        "target": "Clients",
+        "goal": "Resolve issues efficiently",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-07T21:44:15.465Z",
+        "updated_at": "2023-09-08T13:30:55.536Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf5c5a45-f7c4-4d34-82a4-bf8f5c542a26",
+        "uid": "345678",
+        "name": "Agent C",
+        "system_prompt": "Hello! How can I be of service?",
+        "context": "Billing",
+        "domain": "Healthcare",
+        "target": "Users",
+        "goal": "Increase customer satisfaction",
+        "extra_prompts": "Is there anything specific you would like assistance with?",
+        "created_at": "2023-09-07T20:57:42.657Z",
+        "updated_at": "2023-09-08T09:35:08.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50648fbb-e77a-44de-9c66-9fef2b311b3d",
+        "uid": "901234",
+        "name": "Agent D",
+        "system_prompt": "Greetings! What can I do for you?",
+        "context": "Technical",
+        "domain": "Education",
+        "target": "Students",
+        "goal": "Drive sales growth",
+        "extra_prompts": "Feel free to ask me anything else.",
+        "created_at": "2023-09-08T01:46:11.538Z",
+        "updated_at": "2023-09-08T10:01:40.365Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b859f1a1-f17c-47bb-a4d7-3d23fa0f35b0",
+        "uid": "567890",
+        "name": "Agent E",
+        "system_prompt": "Hi there! How may I assist you?",
+        "context": "Marketing",
+        "domain": "Technology",
+        "target": "Patients",
+        "goal": "Improve user experience",
+        "extra_prompts": "Let me know if there's anything else I can do for you.",
+        "created_at": "2023-09-08T17:55:12.417Z",
+        "updated_at": "2023-09-08T06:41:23.578Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "15bdfe33-e1cd-4038-8a78-66d1cd1213bc",
+        "name": "Instance A",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhookA",
+        "qr_code_url": "https://example.com/qrCodeA",
+        "created_at": "2023-09-08T14:25:06.040Z",
+        "updated_at": "2023-09-08T15:29:15.678Z",
+        "agent_id": "50648fbb-e77a-44de-9c66-9fef2b311b3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "207f04e2-6919-49c1-ac79-4ea7d4f2bd99",
+        "name": "Instance B",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhookB",
+        "qr_code_url": "https://example.com/qrCodeB",
+        "created_at": "2023-09-08T03:57:17.532Z",
+        "updated_at": "2023-09-07T22:56:55.203Z",
+        "agent_id": "cf5c5a45-f7c4-4d34-82a4-bf8f5c542a26",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99279ab8-399b-4647-8c64-d775163367b6",
+        "name": "Instance C",
+        "whatsapp_number": "+2345678901",
+        "webhook_url": "https://example.com/webhookC",
+        "qr_code_url": "https://example.com/qrCodeC",
+        "created_at": "2023-09-08T16:35:24.290Z",
+        "updated_at": "2023-09-08T06:55:16.627Z",
+        "agent_id": "556647b6-fee2-4dc1-afee-a3b589913cea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76db7244-d5db-4b49-b29b-f3ccd0fae2aa",
+        "name": "Instance D",
+        "whatsapp_number": "+1098765432",
+        "webhook_url": "https://example.com/webhookD",
+        "qr_code_url": "https://example.com/qrCodeD",
+        "created_at": "2023-09-08T01:09:36.786Z",
+        "updated_at": "2023-09-08T00:51:14.803Z",
+        "agent_id": "556647b6-fee2-4dc1-afee-a3b589913cea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ff43826-86d5-4cc4-a213-a01f0018d470",
+        "name": "Instance E",
+        "whatsapp_number": "+5678901234",
+        "webhook_url": "https://example.com/webhookE",
+        "qr_code_url": "https://example.com/qrCodeE",
+        "created_at": "2023-09-08T12:10:40.683Z",
+        "updated_at": "2023-09-08T08:58:34.390Z",
+        "agent_id": "7ecd329e-379e-4ca7-9d4e-9783020b18b2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "310c6d46-2b7a-4bd5-8f03-f88eabca5a8a",
+        "email": "Litzy86@gmail.com",
+        "firstName": "Ashton",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28633631",
+        "tenantId": null
+      },
+      {
+        "reference": "8a0e41a0-dbd8-4714-9021-6ad15ba1b7e1",
+        "email": "Kyle7@gmail.com",
+        "firstName": "Dolly",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46853290",
+        "tenantId": null
+      },
+      {
+        "reference": "b75949f6-caa8-44a1-91ea-d0813d64467b",
+        "email": "Nathan31@yahoo.com",
+        "firstName": "Felix",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/900.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "165c4849-97ed-431d-ac85-4f339c2858ae",
+        "email": "Effie23@hotmail.com",
+        "firstName": "Alfonso",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b52c99c6-dacf-4715-8782-b60b4c8d4466",
+        "email": "Dayna.Durgan93@gmail.com",
+        "firstName": "Erna",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "47b00293-5f56-4605-b0ac-978db3f47e53",
+        "uid": "123456",
+        "name": "Agent A",
+        "system_prompt": "How can I assist you today?",
+        "context": "customer_support",
+        "domain": "ecommerce",
+        "target": "customers",
+        "goal": "provide excellent service",
+        "extra_prompts": "Is there anything else I can assist you with?",
+        "created_at": "2023-09-08T01:07:24.107Z",
+        "updated_at": "2023-09-08T07:39:39.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fe0338f-2917-462b-850b-f4928331543e",
+        "uid": "789012",
+        "name": "Agent B",
+        "system_prompt": "Welcome! How may I help you?",
+        "context": "sales",
+        "domain": "banking",
+        "target": "clients",
+        "goal": "increase customer satisfaction",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-08T06:19:44.911Z",
+        "updated_at": "2023-09-08T12:03:38.382Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bed368dc-f16a-435f-94de-1176374123a1",
+        "uid": "345678",
+        "name": "Agent C",
+        "system_prompt": "Hello! How can I be of service?",
+        "context": "billing",
+        "domain": "telecommunications",
+        "target": "users",
+        "goal": "resolve issues efficiently",
+        "extra_prompts": "How else may I help you?",
+        "created_at": "2023-09-08T16:34:49.897Z",
+        "updated_at": "2023-09-08T03:27:46.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1b81979-1539-4a4c-8e68-7025d60e9519",
+        "uid": "901234",
+        "name": "Agent D",
+        "system_prompt": "Greetings! What can I do for you?",
+        "context": "technical_support",
+        "domain": "travel",
+        "target": "visitors",
+        "goal": "drive sales",
+        "extra_prompts": "Is there any other information you need?",
+        "created_at": "2023-09-08T12:00:36.200Z",
+        "updated_at": "2023-09-08T02:54:11.696Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04cf6ec5-60e5-44f9-a7c3-d7a4d8e97a17",
+        "uid": "567890",
+        "name": "Agent E",
+        "system_prompt": "Hi there! How can I assist you?",
+        "context": "product_information",
+        "domain": "healthcare",
+        "target": "subscribers",
+        "goal": "improve user experience",
+        "extra_prompts": "Let me know if there's anything else I can do for you.",
+        "created_at": "2023-09-08T02:36:50.243Z",
+        "updated_at": "2023-09-08T01:07:19.637Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "eddf5089-27f7-45b7-a998-0291210bb6fd",
+        "name": "Instance A",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhookA",
+        "qr_code_url": "https://example.com/qrCodeA",
+        "created_at": "2023-09-08T16:54:04.170Z",
+        "updated_at": "2023-09-08T13:32:00.363Z",
+        "agent_id": "d1b81979-1539-4a4c-8e68-7025d60e9519",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b62bfd1c-573a-4974-b12e-7a7f7d7f88c0",
+        "name": "Instance B",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhookB",
+        "qr_code_url": "https://example.com/qrCodeB",
+        "created_at": "2023-09-08T15:40:23.287Z",
+        "updated_at": "2023-09-08T15:21:16.136Z",
+        "agent_id": "5fe0338f-2917-462b-850b-f4928331543e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe40ecb7-d93e-40d0-8828-2f613ac1792b",
+        "name": "Instance C",
+        "whatsapp_number": "+2345678901",
+        "webhook_url": "https://example.com/webhookC",
+        "qr_code_url": "https://example.com/qrCodeC",
+        "created_at": "2023-09-08T15:08:14.943Z",
+        "updated_at": "2023-09-08T11:23:37.688Z",
+        "agent_id": "d1b81979-1539-4a4c-8e68-7025d60e9519",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70822ce9-33e2-4ba3-bc8f-c5bdbcac55e0",
+        "name": "Instance D",
+        "whatsapp_number": "+8901234567",
+        "webhook_url": "https://example.com/webhookD",
+        "qr_code_url": "https://example.com/qrCodeD",
+        "created_at": "2023-09-08T08:51:12.834Z",
+        "updated_at": "2023-09-08T05:43:24.922Z",
+        "agent_id": "47b00293-5f56-4605-b0ac-978db3f47e53",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef87b284-671c-45cf-88bd-5bcce471ba5d",
+        "name": "Instance E",
+        "whatsapp_number": "+4567890123",
+        "webhook_url": "https://example.com/webhookE",
+        "qr_code_url": "https://example.com/qrCodeE",
+        "created_at": "2023-09-08T11:05:37.257Z",
+        "updated_at": "2023-09-08T15:37:49.428Z",
+        "agent_id": "bed368dc-f16a-435f-94de-1176374123a1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "59724af2-86bd-4471-b843-de53fffd96fc",
+        "email": "Eulah93@hotmail.com",
+        "firstName": "Hailie",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47895743",
+        "tenantId": null
+      },
+      {
+        "reference": "cb2c1773-3986-4fb5-94c2-5c8ac748070e",
+        "email": "Stephan.Mayer@yahoo.com",
+        "firstName": "Antonette",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71403540",
+        "tenantId": null
+      },
+      {
+        "reference": "f4f42673-f9ed-4279-8608-121f36591c1e",
+        "email": "Morton7@yahoo.com",
+        "firstName": "Jaylon",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/429.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "93266fcb-8fbd-4b1e-9e46-0439b9bae81e",
+        "email": "Tristin68@hotmail.com",
+        "firstName": "Westley",
+        "lastName": "Howell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0e03d21d-1a02-460f-81b2-321317abfb97",
+        "email": "Vallie61@yahoo.com",
+        "firstName": "Lee",
+        "lastName": "Smith-Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38816729",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "1a148ed4-1caf-4c1e-b8f2-12c02ce50958",
+        "uid": "12345",
+        "name": "Agent1",
+        "system_prompt": "How can I assist you today?",
+        "context": "Sales",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Increase sales",
+        "extra_prompts": "Is there anything else I can help you with?",
+        "created_at": "2023-09-07T23:29:47.658Z",
+        "updated_at": "2023-09-08T10:52:52.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c9e2254-d6e5-44f1-a91f-708ea0056534",
+        "uid": "67890",
+        "name": "Agent2",
+        "system_prompt": "Welcome! How may I help you?",
+        "context": "Support",
+        "domain": "Finance",
+        "target": "Clients",
+        "goal": "Resolve issues",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-08T19:37:02.612Z",
+        "updated_at": "2023-09-08T11:31:05.694Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d98064-0707-4186-88ec-7889551aa65b",
+        "uid": "54321",
+        "name": "Agent3",
+        "system_prompt": "What can I do for you?",
+        "context": "Billing",
+        "domain": "Healthcare",
+        "target": "Users",
+        "goal": "Provide assistance",
+        "extra_prompts": "Is there anything specific you would like to know?",
+        "created_at": "2023-09-08T19:56:22.128Z",
+        "updated_at": "2023-09-08T16:17:11.032Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8cd6c3f-dafa-45b4-ab1c-b3339fba1219",
+        "uid": "09876",
+        "name": "Agent4",
+        "system_prompt": "How can I be of service?",
+        "context": "Technical",
+        "domain": "Travel",
+        "target": "Visitors",
+        "goal": "Improve customer satisfaction",
+        "extra_prompts": "Feel free to ask me anything else.",
+        "created_at": "2023-09-08T03:10:50.838Z",
+        "updated_at": "2023-09-07T22:36:47.008Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db243aaa-02f9-4431-8176-fe85390adf69",
+        "uid": "13579",
+        "name": "Agent5",
+        "system_prompt": "Hello! How can I assist you?",
+        "context": "General",
+        "domain": "Education",
+        "target": "Consumers",
+        "goal": "Drive engagement",
+        "extra_prompts": "Let me know if there's anything else I can assist you with.",
+        "created_at": "2023-09-08T02:03:07.182Z",
+        "updated_at": "2023-09-08T08:46:55.679Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "95eb3cbd-4e89-48b3-bafc-4a86db27ff0c",
+        "name": "Instance1",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhook1",
+        "qr_code_url": "https://example.com/qr_code1",
+        "created_at": "2023-09-08T13:29:41.760Z",
+        "updated_at": "2023-09-08T04:15:23.211Z",
+        "agent_id": "db243aaa-02f9-4431-8176-fe85390adf69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "658e6753-a266-4dda-bebf-37226b33f94a",
+        "name": "Instance2",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhook2",
+        "qr_code_url": "https://example.com/qr_code2",
+        "created_at": "2023-09-08T20:28:22.491Z",
+        "updated_at": "2023-09-08T18:17:30.856Z",
+        "agent_id": "1a148ed4-1caf-4c1e-b8f2-12c02ce50958",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d191140e-bf8b-4a60-aea1-12f6d0677a1f",
+        "name": "Instance3",
+        "whatsapp_number": "+5432167890",
+        "webhook_url": "https://example.com/webhook3",
+        "qr_code_url": "https://example.com/qr_code3",
+        "created_at": "2023-09-08T14:47:46.294Z",
+        "updated_at": "2023-09-08T04:09:40.895Z",
+        "agent_id": "db243aaa-02f9-4431-8176-fe85390adf69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8521a0e4-4d1d-4427-87f0-53243436cc50",
+        "name": "Instance4",
+        "whatsapp_number": "+0987654321",
+        "webhook_url": "https://example.com/webhook4",
+        "qr_code_url": "https://example.com/qr_code4",
+        "created_at": "2023-09-08T04:25:54.757Z",
+        "updated_at": "2023-09-08T08:10:20.048Z",
+        "agent_id": "b8cd6c3f-dafa-45b4-ab1c-b3339fba1219",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f04be16-e6c7-4868-8228-9a906ca615b7",
+        "name": "Instance5",
+        "whatsapp_number": "+1357924680",
+        "webhook_url": "https://example.com/webhook5",
+        "qr_code_url": "https://example.com/qr_code5",
+        "created_at": "2023-09-08T12:16:46.598Z",
+        "updated_at": "2023-09-08T01:01:18.081Z",
+        "agent_id": "db243aaa-02f9-4431-8176-fe85390adf69",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3a01d1f1-d2fa-417a-ae9b-7d6d58ca572f",
+        "email": "Andrew88@gmail.com",
+        "firstName": "Hermann",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1048.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c6eff06-41ab-4c94-a406-8dbb5a6df8b9",
+        "email": "Faustino73@hotmail.com",
+        "firstName": "Joanny",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/432.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63753b24-1a5f-446b-9f21-72ac8ce60824",
+        "email": "Myrl86@yahoo.com",
+        "firstName": "Gunner",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7061907",
+        "tenantId": null
+      },
+      {
+        "reference": "d2e8f5b2-8ffd-497d-a862-8ba6640db859",
+        "email": "Lora.Heidenreich19@gmail.com",
+        "firstName": "Clovis",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/441.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8aa9754-d0e5-4192-92b0-532708c18584",
+        "email": "Keanu.Durgan25@hotmail.com",
+        "firstName": "Keira",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41303387",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "6270b2ff-c2a5-4fda-8539-221736908a06",
+        "uid": "12345",
+        "name": "Agent A",
+        "system_prompt": "How can I assist you today?",
+        "context": "General",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Resolve issues",
+        "extra_prompts": "Is there anything else I can help you with?",
+        "created_at": "2023-09-08T00:00:03.579Z",
+        "updated_at": "2023-09-08T14:07:31.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f15be6e-7f1e-4356-b83b-0f6642208ddb",
+        "uid": "67890",
+        "name": "Agent B",
+        "system_prompt": "Welcome! How may I help you?",
+        "context": "Support",
+        "domain": "Banking",
+        "target": "Users",
+        "goal": "Provide information",
+        "extra_prompts": "Let me know if you have any other questions.",
+        "created_at": "2023-09-08T20:33:13.259Z",
+        "updated_at": "2023-09-08T09:25:50.065Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c237a44b-7f16-4d12-8816-1df7a3db0c6f",
+        "uid": "54321",
+        "name": "Agent C",
+        "system_prompt": "Hello! How can I be of service?",
+        "context": "Sales",
+        "domain": "Healthcare",
+        "target": "Clients",
+        "goal": "Increase sales",
+        "extra_prompts": "Feel free to ask me anything else.",
+        "created_at": "2023-09-08T01:02:44.520Z",
+        "updated_at": "2023-09-08T17:10:43.721Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73edc07b-68f5-4fcf-ae93-b15bd0cd3b4a",
+        "uid": "09876",
+        "name": "Agent D",
+        "system_prompt": "Greetings! What can I do for you?",
+        "context": "Billing",
+        "domain": "Travel",
+        "target": "Visitors",
+        "goal": "Improve user experience",
+        "extra_prompts": "I'm here to assist you. What else do you need?",
+        "created_at": "2023-09-08T02:53:18.642Z",
+        "updated_at": "2023-09-07T21:26:58.867Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc6bd63b-87d6-41d4-b268-d7951facffe1",
+        "uid": "13579",
+        "name": "Agent E",
+        "system_prompt": "Hi there! How can I assist you?",
+        "context": "Technical",
+        "domain": "Education",
+        "target": "Subscribers",
+        "goal": "Generate leads",
+        "extra_prompts": "If you need further assistance, please let me know.",
+        "created_at": "2023-09-08T17:43:04.397Z",
+        "updated_at": "2023-09-07T21:07:07.459Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "a0a3cf64-2c55-4255-b56e-565f7bb36b75",
+        "name": "Instance A",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhook1",
+        "qr_code_url": "https://example.com/qr_code1",
+        "created_at": "2023-09-08T07:37:56.456Z",
+        "updated_at": "2023-09-08T07:36:10.910Z",
+        "agent_id": "fc6bd63b-87d6-41d4-b268-d7951facffe1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "258b4827-6821-4e88-b505-894f91353f03",
+        "name": "Instance B",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhook2",
+        "qr_code_url": "https://example.com/qr_code2",
+        "created_at": "2023-09-08T00:12:30.571Z",
+        "updated_at": "2023-09-08T11:56:01.954Z",
+        "agent_id": "c237a44b-7f16-4d12-8816-1df7a3db0c6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53e324da-a7ec-46e6-92cb-ca37cbdc3ed7",
+        "name": "Instance C",
+        "whatsapp_number": "+2468135790",
+        "webhook_url": "https://example.com/webhook3",
+        "qr_code_url": "https://example.com/qr_code3",
+        "created_at": "2023-09-08T00:01:50.164Z",
+        "updated_at": "2023-09-08T19:46:02.078Z",
+        "agent_id": "fc6bd63b-87d6-41d4-b268-d7951facffe1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "053db10f-1611-4cb1-af44-4c9a09ed6238",
+        "name": "Instance D",
+        "whatsapp_number": "+1357924680",
+        "webhook_url": "https://example.com/webhook4",
+        "qr_code_url": "https://example.com/qr_code4",
+        "created_at": "2023-09-08T15:43:39.207Z",
+        "updated_at": "2023-09-07T23:35:01.972Z",
+        "agent_id": "5f15be6e-7f1e-4356-b83b-0f6642208ddb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dd73f5d-c448-404f-ba1e-ee60910fb5c3",
+        "name": "Instance E",
+        "whatsapp_number": "+8642097531",
+        "webhook_url": "https://example.com/webhook5",
+        "qr_code_url": "https://example.com/qr_code5",
+        "created_at": "2023-09-08T12:50:57.931Z",
+        "updated_at": "2023-09-08T08:46:53.088Z",
+        "agent_id": "5f15be6e-7f1e-4356-b83b-0f6642208ddb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8ea6f554-fbde-46b1-88dd-78b0039074fa",
+        "email": "Brionna_Mertz58@gmail.com",
+        "firstName": "Tate",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1007.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb50a051-a5cf-476e-9304-8a93b21924a6",
+        "email": "Ethyl6@yahoo.com",
+        "firstName": "Sammy",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79918797",
+        "tenantId": null
+      },
+      {
+        "reference": "16d2978d-cf1e-4d67-99de-dfe2881a66cd",
+        "email": "Rosie_Johns26@hotmail.com",
+        "firstName": "Randall",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1306476",
+        "tenantId": null
+      },
+      {
+        "reference": "a53dad25-2a41-4fe2-b887-1997531d9158",
+        "email": "Kip14@hotmail.com",
+        "firstName": "Leon",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93839832",
+        "tenantId": null
+      },
+      {
+        "reference": "fc34e525-7bdd-4f04-88fb-2c0ff2adae4f",
+        "email": "Davin_Grant@gmail.com",
+        "firstName": "Miller",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/570.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "f6781d9d-7a1c-4734-870a-537c2173bd3c",
+        "uid": "1234",
+        "name": "Agent 1",
+        "system_prompt": "How can I assist you today?",
+        "context": "Sales",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Increase sales",
+        "extra_prompts": "Is there anything else I can help you with?",
+        "created_at": "2023-09-08T17:03:44.747Z",
+        "updated_at": "2023-09-08T15:30:38.557Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2efd1b4b-f7fe-4433-b0a8-d285ce80fc7a",
+        "uid": "5678",
+        "name": "Agent 2",
+        "system_prompt": "Welcome! How may I help you?",
+        "context": "Support",
+        "domain": "Finance",
+        "target": "Clients",
+        "goal": "Resolve issues",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-08T18:56:35.094Z",
+        "updated_at": "2023-09-08T01:10:42.289Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1cd05af-96f5-434e-a5f3-6c162de45e8c",
+        "uid": "9012",
+        "name": "Agent 3",
+        "system_prompt": "Hello! How can I be of service?",
+        "context": "Billing",
+        "domain": "Healthcare",
+        "target": "Users",
+        "goal": "Improve customer satisfaction",
+        "extra_prompts": "Would you like assistance with anything else?",
+        "created_at": "2023-09-08T09:59:09.070Z",
+        "updated_at": "2023-09-08T02:40:43.438Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6df02ad8-cb51-4a54-819e-0e583894194c",
+        "uid": "3456",
+        "name": "Agent 4",
+        "system_prompt": "Good day! How can I assist you?",
+        "context": "Technical",
+        "domain": "Education",
+        "target": "Visitors",
+        "goal": "Provide accurate information",
+        "extra_prompts": "Can I assist you with anything else?",
+        "created_at": "2023-09-08T01:02:48.428Z",
+        "updated_at": "2023-09-08T02:25:16.679Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1e5d820-b531-48b6-8cb1-91614f49b65f",
+        "uid": "7890",
+        "name": "Agent 5",
+        "system_prompt": "Hi! How may I assist you today?",
+        "context": "General",
+        "domain": "Technology",
+        "target": "Subscribers",
+        "goal": "Enhance user experience",
+        "extra_prompts": "Is there anything specific you would like to know?",
+        "created_at": "2023-09-08T02:52:38.707Z",
+        "updated_at": "2023-09-08T13:07:52.390Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "e2683f34-317c-4ae5-94a1-f2360db949c5",
+        "name": "Instance 1",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhook1",
+        "qr_code_url": "https://example.com/qr_code1",
+        "created_at": "2023-09-08T13:47:11.672Z",
+        "updated_at": "2023-09-08T11:52:12.693Z",
+        "agent_id": "f6781d9d-7a1c-4734-870a-537c2173bd3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0ab1c4e-40e2-40b0-a1fe-37b6c949c8dc",
+        "name": "Instance 2",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhook2",
+        "qr_code_url": "https://example.com/qr_code2",
+        "created_at": "2023-09-08T15:58:24.741Z",
+        "updated_at": "2023-09-08T12:59:37.774Z",
+        "agent_id": "2efd1b4b-f7fe-4433-b0a8-d285ce80fc7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d322591-6b67-4107-bd1d-3673aa0955f7",
+        "name": "Instance 3",
+        "whatsapp_number": "+4567890123",
+        "webhook_url": "https://example.com/webhook3",
+        "qr_code_url": "https://example.com/qr_code3",
+        "created_at": "2023-09-07T23:59:08.615Z",
+        "updated_at": "2023-09-08T13:24:03.606Z",
+        "agent_id": "2efd1b4b-f7fe-4433-b0a8-d285ce80fc7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eee96f02-b759-45f1-9044-60ae40dacfab",
+        "name": "Instance 4",
+        "whatsapp_number": "+2109876543",
+        "webhook_url": "https://example.com/webhook4",
+        "qr_code_url": "https://example.com/qr_code4",
+        "created_at": "2023-09-07T22:30:44.986Z",
+        "updated_at": "2023-09-08T04:27:39.877Z",
+        "agent_id": "f6781d9d-7a1c-4734-870a-537c2173bd3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f88232cd-4300-4639-8d0e-7afc0ab6e91d",
+        "name": "Instance 5",
+        "whatsapp_number": "+3210987654",
+        "webhook_url": "https://example.com/webhook5",
+        "qr_code_url": "https://example.com/qr_code5",
+        "created_at": "2023-09-08T07:37:27.069Z",
+        "updated_at": "2023-09-08T10:45:30.685Z",
+        "agent_id": "6df02ad8-cb51-4a54-819e-0e583894194c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "92cc4238-c338-4e88-a4c9-0c3a42a096b7",
+        "email": "Vidal.Lowe24@yahoo.com",
+        "firstName": "Nasir",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13470691",
+        "tenantId": null
+      },
+      {
+        "reference": "96810a8a-58bd-446e-bfbc-5384df4ec64f",
+        "email": "Isaias.Olson@hotmail.com",
+        "firstName": "Cristobal",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46313557",
+        "tenantId": null
+      },
+      {
+        "reference": "b41710b1-77a5-4625-93b5-b74437f72eed",
+        "email": "Cortney_Goyette2@gmail.com",
+        "firstName": "Lauryn",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15319184",
+        "tenantId": null
+      },
+      {
+        "reference": "57b944ca-3719-46d1-ab5f-81d8079acece",
+        "email": "Rosalee_Simonis@yahoo.com",
+        "firstName": "Ahmed",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70789988",
+        "tenantId": null
+      },
+      {
+        "reference": "23ae9b6b-7c5f-40b7-bfbd-534488162314",
+        "email": "Harmony_Beahan65@gmail.com",
+        "firstName": "Maida",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/526.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "bf18c549-de8e-496c-98c0-1f371b285609",
+        "uid": "1234",
+        "name": "Agent1",
+        "system_prompt": "How can I assist you?",
+        "context": "General",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Increase sales",
+        "extra_prompts": "Is there anything else I can assist you with?",
+        "created_at": "2023-09-07T23:54:36.055Z",
+        "updated_at": "2023-09-08T09:13:23.450Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4aa9a53-2951-4166-919b-57b9969c13bd",
+        "uid": "5678",
+        "name": "Agent2",
+        "system_prompt": "Please provide more details.",
+        "context": "Sales",
+        "domain": "Banking",
+        "target": "Users",
+        "goal": "Improve customer satisfaction",
+        "extra_prompts": "Let me know if you need further assistance.",
+        "created_at": "2023-09-08T11:55:12.268Z",
+        "updated_at": "2023-09-08T00:59:58.985Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc318bea-7ce3-4e98-8456-c7d06b7aa568",
+        "uid": "9012",
+        "name": "Agent3",
+        "system_prompt": "Let me check that for you.",
+        "context": "Support",
+        "domain": "Healthcare",
+        "target": "Clients",
+        "goal": "Resolve issues quickly",
+        "extra_prompts": "Feel free to ask any questions.",
+        "created_at": "2023-09-08T19:23:31.239Z",
+        "updated_at": "2023-09-07T21:49:14.697Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96e42898-e3bf-4daf-9bbe-0049b69d342b",
+        "uid": "3456",
+        "name": "Agent4",
+        "system_prompt": "I'm here to help.",
+        "context": "Billing",
+        "domain": "Travel",
+        "target": "Visitors",
+        "goal": "Provide accurate information",
+        "extra_prompts": "I'm here to help you out.",
+        "created_at": "2023-09-08T19:16:35.395Z",
+        "updated_at": "2023-09-08T09:59:55.756Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4711b88b-0926-4ac9-89aa-c0f84ddaf07b",
+        "uid": "7890",
+        "name": "Agent5",
+        "system_prompt": "What can I do for you?",
+        "context": "Technical",
+        "domain": "Education",
+        "target": "Subscribers",
+        "goal": "Enhance user experience",
+        "extra_prompts": "Do you have any other queries?",
+        "created_at": "2023-09-07T21:29:45.654Z",
+        "updated_at": "2023-09-08T17:36:52.874Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "9c66e5bc-d34d-47bf-86cf-0fd781aa7d82",
+        "name": "Instance1",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhook1",
+        "qr_code_url": "https://example.com/qr_code1",
+        "created_at": "2023-09-07T21:55:10.544Z",
+        "updated_at": "2023-09-07T20:38:15.535Z",
+        "agent_id": "96e42898-e3bf-4daf-9bbe-0049b69d342b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eccff494-3ee4-42bc-aed2-4ec6a0eb9473",
+        "name": "Instance2",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhook2",
+        "qr_code_url": "https://example.com/qr_code2",
+        "created_at": "2023-09-08T06:18:04.270Z",
+        "updated_at": "2023-09-08T17:05:50.206Z",
+        "agent_id": "4711b88b-0926-4ac9-89aa-c0f84ddaf07b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25736b13-a33d-42d1-a03e-eca8e6e53f44",
+        "name": "Instance3",
+        "whatsapp_number": "+2468135790",
+        "webhook_url": "https://example.com/webhook3",
+        "qr_code_url": "https://example.com/qr_code3",
+        "created_at": "2023-09-08T18:50:44.512Z",
+        "updated_at": "2023-09-07T22:45:02.113Z",
+        "agent_id": "bc318bea-7ce3-4e98-8456-c7d06b7aa568",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cb45f41-ad13-4316-8c0f-c76312dab3d7",
+        "name": "Instance4",
+        "whatsapp_number": "+1357924680",
+        "webhook_url": "https://example.com/webhook4",
+        "qr_code_url": "https://example.com/qr_code4",
+        "created_at": "2023-09-08T08:33:01.281Z",
+        "updated_at": "2023-09-08T15:39:40.442Z",
+        "agent_id": "4711b88b-0926-4ac9-89aa-c0f84ddaf07b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca4364f1-b23b-4700-acfb-f41af7d8a52e",
+        "name": "Instance5",
+        "whatsapp_number": "+8642097531",
+        "webhook_url": "https://example.com/webhook5",
+        "qr_code_url": "https://example.com/qr_code5",
+        "created_at": "2023-09-08T09:28:20.001Z",
+        "updated_at": "2023-09-08T19:48:18.127Z",
+        "agent_id": "bf18c549-de8e-496c-98c0-1f371b285609",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "74268cf7-c49b-46ba-9081-9a0ad68f6b02",
+        "email": "Norris_Tremblay92@gmail.com",
+        "firstName": "Josefina",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/117.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "14ea05fa-cc14-45b1-8acd-1dfdc7fb136d",
+        "email": "Andreane.Mitchell@hotmail.com",
+        "firstName": "Edwin",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6901977",
+        "tenantId": null
+      },
+      {
+        "reference": "b92baf83-1436-40c8-90f7-f130f2dc579e",
+        "email": "Noel.Swaniawski@yahoo.com",
+        "firstName": "Jakayla",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1208.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b0b8d435-76c2-44f1-9940-a0f2fbfe0e1b",
+        "email": "Katarina12@hotmail.com",
+        "firstName": "Xavier",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92631206",
+        "tenantId": null
+      },
+      {
+        "reference": "b5c089bc-f1c4-49d5-861d-c0b45457f3ab",
+        "email": "Jessy_Daniel4@hotmail.com",
+        "firstName": "Brooks",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/946.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "19799f43-9cf7-4724-8010-d1534cdef6d4",
+        "uid": "123456",
+        "name": "Agent A",
+        "system_prompt": "How can I assist you?",
+        "context": "sales",
+        "domain": "ecommerce",
+        "target": "customers",
+        "goal": "increase sales",
+        "extra_prompts": "Is there anything else I can assist you with?",
+        "created_at": "2023-09-08T05:36:03.534Z",
+        "updated_at": "2023-09-08T06:43:23.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b13db972-2441-4b47-8fd1-4fb3067ae0ca",
+        "uid": "987654",
+        "name": "Agent B",
+        "system_prompt": "What can I help you with?",
+        "context": "support",
+        "domain": "banking",
+        "target": "clients",
+        "goal": "improve customer satisfaction",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-08T15:19:46.844Z",
+        "updated_at": "2023-09-07T22:29:01.806Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acc4d6ce-562c-43a2-a20b-4b9fa4c76703",
+        "uid": "246813",
+        "name": "Agent C",
+        "system_prompt": "How may I be of service?",
+        "context": "billing",
+        "domain": "travel",
+        "target": "users",
+        "goal": "streamline processes",
+        "extra_prompts": "Is there anything specific you would like to know?",
+        "created_at": "2023-09-08T05:35:51.035Z",
+        "updated_at": "2023-09-08T04:03:06.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68a57a60-97d9-4fe7-9681-f922126ce6c5",
+        "uid": "135792",
+        "name": "Agent D",
+        "system_prompt": "How can I support you?",
+        "context": "technical",
+        "domain": "healthcare",
+        "target": "visitors",
+        "goal": "enhance user experience",
+        "extra_prompts": "Can I help you with anything else?",
+        "created_at": "2023-09-08T09:26:34.062Z",
+        "updated_at": "2023-09-08T01:43:07.180Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1e642b6-e51b-4944-9f85-7fd7bbdac255",
+        "uid": "864209",
+        "name": "Agent E",
+        "system_prompt": "What do you need help with?",
+        "context": "marketing",
+        "domain": "education",
+        "target": "subscribers",
+        "goal": "boost engagement",
+        "extra_prompts": "Do you need further assistance?",
+        "created_at": "2023-09-08T19:25:19.833Z",
+        "updated_at": "2023-09-08T13:44:58.330Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "02e673cc-c934-4b77-bb99-f73efc5b356a",
+        "name": "Instance A",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhook1",
+        "qr_code_url": "https://example.com/qr1",
+        "created_at": "2023-09-08T02:19:12.190Z",
+        "updated_at": "2023-09-08T16:02:08.090Z",
+        "agent_id": "c1e642b6-e51b-4944-9f85-7fd7bbdac255",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf6d6f33-d850-4b6e-8275-55a5e99cf045",
+        "name": "Instance B",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhook2",
+        "qr_code_url": "https://example.com/qr2",
+        "created_at": "2023-09-08T15:12:07.851Z",
+        "updated_at": "2023-09-08T18:14:52.488Z",
+        "agent_id": "c1e642b6-e51b-4944-9f85-7fd7bbdac255",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a080613-e0fa-452c-b5fa-7bf000f774b2",
+        "name": "Instance C",
+        "whatsapp_number": "+2468135790",
+        "webhook_url": "https://example.com/webhook3",
+        "qr_code_url": "https://example.com/qr3",
+        "created_at": "2023-09-08T02:27:42.875Z",
+        "updated_at": "2023-09-08T00:51:39.058Z",
+        "agent_id": "19799f43-9cf7-4724-8010-d1534cdef6d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44ac44e4-8dd6-4638-9ff8-a3a0664acbd9",
+        "name": "Instance D",
+        "whatsapp_number": "+1357924680",
+        "webhook_url": "https://example.com/webhook4",
+        "qr_code_url": "https://example.com/qr4",
+        "created_at": "2023-09-08T04:38:58.663Z",
+        "updated_at": "2023-09-08T18:51:44.666Z",
+        "agent_id": "acc4d6ce-562c-43a2-a20b-4b9fa4c76703",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab508cea-6bbb-494d-a124-f18e11bb0f1f",
+        "name": "Instance E",
+        "whatsapp_number": "+8642097530",
+        "webhook_url": "https://example.com/webhook5",
+        "qr_code_url": "https://example.com/qr5",
+        "created_at": "2023-09-08T03:03:25.123Z",
+        "updated_at": "2023-09-08T14:06:25.058Z",
+        "agent_id": "acc4d6ce-562c-43a2-a20b-4b9fa4c76703",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5d257961-3cda-4c48-8a4f-5e886d7e8db7",
+        "email": "Kane_Witting@gmail.com",
+        "firstName": "Nico",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1216.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "641bb2f4-c6a4-4866-8c3c-1f017e642a57",
+        "email": "Tyreek_White42@yahoo.com",
+        "firstName": "Alvera",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22375078",
+        "tenantId": null
+      },
+      {
+        "reference": "2a3e6afe-617b-4b68-a092-2434bf584b41",
+        "email": "Ed61@gmail.com",
+        "firstName": "Keegan",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36217807",
+        "tenantId": null
+      },
+      {
+        "reference": "c99e126d-8cb8-4a52-8262-b0307d733bdb",
+        "email": "Christa5@gmail.com",
+        "firstName": "Vivien",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65944261",
+        "tenantId": null
+      },
+      {
+        "reference": "caaf2396-25a1-47ce-bb52-894922ba8a95",
+        "email": "Julianne_Will@hotmail.com",
+        "firstName": "Camila",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1057.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "7a3d935b-4823-47f2-be91-27f85d08e09e",
+        "uid": "123456789",
+        "name": "Agent 1",
+        "system_prompt": "How can I assist you today?",
+        "context": "Sales",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Increase sales",
+        "extra_prompts": "Is there anything else I can help you with?",
+        "created_at": "2023-09-07T23:19:40.323Z",
+        "updated_at": "2023-09-08T06:46:18.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20a01487-d951-4fa8-83f0-8669ec984c2a",
+        "uid": "987654321",
+        "name": "Agent 2",
+        "system_prompt": "Welcome! How may I help you?",
+        "context": "Support",
+        "domain": "Healthcare",
+        "target": "Users",
+        "goal": "Resolve issues",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-08T02:02:41.603Z",
+        "updated_at": "2023-09-08T15:51:28.638Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "336f8ff3-1944-4807-b79a-339c78ad7cab",
+        "uid": "456789123",
+        "name": "Agent 3",
+        "system_prompt": "Hello! How can I be of service?",
+        "context": "Billing",
+        "domain": "Finance",
+        "target": "Clients",
+        "goal": "Process payments",
+        "extra_prompts": "Is there anything specific you would like to know?",
+        "created_at": "2023-09-08T09:39:39.497Z",
+        "updated_at": "2023-09-08T04:14:47.679Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59345b03-b96a-43ad-a919-020c5c1f7f01",
+        "uid": "321654987",
+        "name": "Agent 4",
+        "system_prompt": "Greetings! What can I do for you?",
+        "context": "Technical",
+        "domain": "Education",
+        "target": "Visitors",
+        "goal": "Provide technical assistance",
+        "extra_prompts": "How else can I assist you?",
+        "created_at": "2023-09-08T14:22:30.975Z",
+        "updated_at": "2023-09-08T15:13:03.960Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfbedb18-94a0-4819-8719-816a54540d44",
+        "uid": "789123456",
+        "name": "Agent 5",
+        "system_prompt": "Hi there! How can I assist you?",
+        "context": "Marketing",
+        "domain": "Travel",
+        "target": "Subscribers",
+        "goal": "Drive engagement",
+        "extra_prompts": "Let me know if there's anything else I can do for you.",
+        "created_at": "2023-09-07T21:09:46.597Z",
+        "updated_at": "2023-09-08T03:32:06.279Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "2a7ce9db-a7c4-4c50-a4fa-26cdcddd7af2",
+        "name": "Instance 1",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhook1",
+        "qr_code_url": "https://example.com/qr_code1",
+        "created_at": "2023-09-08T04:10:05.371Z",
+        "updated_at": "2023-09-07T23:47:02.597Z",
+        "agent_id": "336f8ff3-1944-4807-b79a-339c78ad7cab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfaf0800-c96a-4b39-8881-1ce6233ad47c",
+        "name": "Instance 2",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhook2",
+        "qr_code_url": "https://example.com/qr_code2",
+        "created_at": "2023-09-07T22:49:23.671Z",
+        "updated_at": "2023-09-08T00:12:48.536Z",
+        "agent_id": "59345b03-b96a-43ad-a919-020c5c1f7f01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bebe142f-0e05-4495-b612-6c90576b0382",
+        "name": "Instance 3",
+        "whatsapp_number": "+4567891230",
+        "webhook_url": "https://example.com/webhook3",
+        "qr_code_url": "https://example.com/qr_code3",
+        "created_at": "2023-09-08T08:22:19.899Z",
+        "updated_at": "2023-09-08T18:51:16.178Z",
+        "agent_id": "cfbedb18-94a0-4819-8719-816a54540d44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f6182ff-ddaa-475e-bea2-b250562717c2",
+        "name": "Instance 4",
+        "whatsapp_number": "+3216549870",
+        "webhook_url": "https://example.com/webhook4",
+        "qr_code_url": "https://example.com/qr_code4",
+        "created_at": "2023-09-08T15:37:32.880Z",
+        "updated_at": "2023-09-08T04:44:36.592Z",
+        "agent_id": "cfbedb18-94a0-4819-8719-816a54540d44",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64faddce-8746-43ac-917d-a6843ed1a667",
+        "name": "Instance 5",
+        "whatsapp_number": "+7891234560",
+        "webhook_url": "https://example.com/webhook5",
+        "qr_code_url": "https://example.com/qr_code5",
+        "created_at": "2023-09-08T04:43:24.173Z",
+        "updated_at": "2023-09-07T21:00:52.080Z",
+        "agent_id": "20a01487-d951-4fa8-83f0-8669ec984c2a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "50524ed4-f65e-4596-9b0d-14b30f7e3d81",
+        "email": "Danika88@hotmail.com",
+        "firstName": "Vida",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29504676",
+        "tenantId": null
+      },
+      {
+        "reference": "b11cdad8-43fb-4733-8628-f6e57a017433",
+        "email": "Irma.Bartell@gmail.com",
+        "firstName": "Mortimer",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31943852",
+        "tenantId": null
+      },
+      {
+        "reference": "cf7bd9b7-7e9a-4003-b0e3-4129b96f6367",
+        "email": "Norval.Parisian@hotmail.com",
+        "firstName": "Karli",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74263929",
+        "tenantId": null
+      },
+      {
+        "reference": "69452f08-6c48-4fdb-8184-adad8ffdfdb4",
+        "email": "Romaine.Ritchie@yahoo.com",
+        "firstName": "Lyric",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/171.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d33f406-af02-4f3c-b020-34e5d7a2df0e",
+        "email": "Onie42@hotmail.com",
+        "firstName": "Desiree",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "800972b6-2264-4157-a0cc-2f49d052375c",
+        "uid": "12345",
+        "name": "Agent A",
+        "system_prompt": "Welcome to our service",
+        "context": "Sales",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Increase sales",
+        "extra_prompts": "Is there anything else I can help you with?",
+        "created_at": "2023-09-08T02:24:12.544Z",
+        "updated_at": "2023-09-08T07:43:53.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10cd4d16-62a3-457d-9e42-4e8e6e4b301c",
+        "uid": "67890",
+        "name": "Agent B",
+        "system_prompt": "How can I assist you?",
+        "context": "Support",
+        "domain": "Finance",
+        "target": "Users",
+        "goal": "Resolve issues",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-07T21:42:44.820Z",
+        "updated_at": "2023-09-08T05:57:16.252Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "415963d4-2f93-4eef-bb2b-a79a287aa45f",
+        "uid": "54321",
+        "name": "Agent C",
+        "system_prompt": "Please provide your details",
+        "context": "Billing",
+        "domain": "Healthcare",
+        "target": "Clients",
+        "goal": "Process payments",
+        "extra_prompts": "Would you like to know more?",
+        "created_at": "2023-09-08T15:05:37.944Z",
+        "updated_at": "2023-09-08T03:54:26.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05e82635-9490-4074-b5a3-1e979a2441ab",
+        "uid": "09876",
+        "name": "Agent D",
+        "system_prompt": "Let me find that information for you",
+        "context": "Technical",
+        "domain": "Education",
+        "target": "Visitors",
+        "goal": "Provide information",
+        "extra_prompts": "Can I assist you with anything else?",
+        "created_at": "2023-09-07T21:54:31.235Z",
+        "updated_at": "2023-09-08T02:56:00.805Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cd0b0de-5eea-4846-ba43-e2a493054c3e",
+        "uid": "13579",
+        "name": "Agent E",
+        "system_prompt": "I'm here to help",
+        "context": "Marketing",
+        "domain": "Travel",
+        "target": "Subscribers",
+        "goal": "Improve user experience",
+        "extra_prompts": "Let me know if there's anything else I can do for you",
+        "created_at": "2023-09-08T19:27:44.403Z",
+        "updated_at": "2023-09-08T20:11:02.479Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "337dd56e-1755-4b46-94c4-a16d387aa26a",
+        "name": "Instance A",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhook",
+        "qr_code_url": "https://example.com/qr-code",
+        "created_at": "2023-09-08T14:26:17.128Z",
+        "updated_at": "2023-09-08T06:26:26.693Z",
+        "agent_id": "05e82635-9490-4074-b5a3-1e979a2441ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "955214b3-26a5-47d0-acc5-cfbf298db337",
+        "name": "Instance B",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://test.com/webhook",
+        "qr_code_url": "https://test.com/qr-code",
+        "created_at": "2023-09-08T13:33:45.069Z",
+        "updated_at": "2023-09-08T04:31:51.897Z",
+        "agent_id": "05e82635-9490-4074-b5a3-1e979a2441ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3d479f1-a20c-4a01-aa7f-4333b5b89735",
+        "name": "Instance C",
+        "whatsapp_number": "+5432167890",
+        "webhook_url": "https://api.com/webhook",
+        "qr_code_url": "https://api.com/qr-code",
+        "created_at": "2023-09-08T09:26:03.120Z",
+        "updated_at": "2023-09-07T23:19:53.431Z",
+        "agent_id": "10cd4d16-62a3-457d-9e42-4e8e6e4b301c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f68f0440-7b00-4358-92bd-43a61bc89e7f",
+        "name": "Instance D",
+        "whatsapp_number": "+0987654321",
+        "webhook_url": "https://webhook.com/callback",
+        "qr_code_url": "https://qr-code.com/image",
+        "created_at": "2023-09-08T20:11:34.729Z",
+        "updated_at": "2023-09-07T22:11:01.851Z",
+        "agent_id": "10cd4d16-62a3-457d-9e42-4e8e6e4b301c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b21f29b9-ab7a-46b7-9fc1-3ab386a78663",
+        "name": "Instance E",
+        "whatsapp_number": "+1357924680",
+        "webhook_url": "https://webhook.site/12345678",
+        "qr_code_url": "https://qrcode-generator.com/12345678",
+        "created_at": "2023-09-08T17:21:26.852Z",
+        "updated_at": "2023-09-07T23:25:08.676Z",
+        "agent_id": "415963d4-2f93-4eef-bb2b-a79a287aa45f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bac6a047-472b-4475-8b46-0ad0a4840e7f",
+        "email": "Junius.Cartwright@yahoo.com",
+        "firstName": "Fredy",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88437b6e-f9e8-41ce-9bf4-beb17fc35424",
+        "email": "Arno77@yahoo.com",
+        "firstName": "Eloise",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42117317",
+        "tenantId": null
+      },
+      {
+        "reference": "091039f0-952e-4a24-b1ca-6942d249bb0a",
+        "email": "Lelia49@hotmail.com",
+        "firstName": "Adam",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51785271",
+        "tenantId": null
+      },
+      {
+        "reference": "1f3f1a22-474b-4e93-a61d-fcf39c7a1579",
+        "email": "Marlin_Orn65@gmail.com",
+        "firstName": "Martine",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27211933",
+        "tenantId": null
+      },
+      {
+        "reference": "b3d73d0f-8a1d-4de3-ac52-15dc941f913c",
+        "email": "Jennifer_Christiansen14@hotmail.com",
+        "firstName": "Leonie",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/767.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "agent": [
+      {
+        "id": "0a3e1d22-ccb4-41ab-b4d8-d8e2a064c00d",
+        "uid": "12345",
+        "name": "Agent A",
+        "system_prompt": "How can I assist you?",
+        "context": "Sales",
+        "domain": "E-commerce",
+        "target": "Customers",
+        "goal": "Increase sales",
+        "extra_prompts": "Is there anything else I can help with?",
+        "created_at": "2023-09-08T15:17:19.664Z",
+        "updated_at": "2023-09-07T22:07:15.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "564b4572-040d-40d6-b289-a38d94ebd3f5",
+        "uid": "67890",
+        "name": "Agent B",
+        "system_prompt": "Welcome! How may I help?",
+        "context": "Support",
+        "domain": "Finance",
+        "target": "Clients",
+        "goal": "Resolve issues",
+        "extra_prompts": "Do you have any other questions?",
+        "created_at": "2023-09-07T23:15:24.671Z",
+        "updated_at": "2023-09-08T10:34:51.608Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66243d5a-2167-4250-bc94-c2b4a64958fa",
+        "uid": "54321",
+        "name": "Agent C",
+        "system_prompt": "What can I do for you?",
+        "context": "Billing",
+        "domain": "Healthcare",
+        "target": "Users",
+        "goal": "Process payments",
+        "extra_prompts": "Can I assist you with anything else?",
+        "created_at": "2023-09-08T11:25:50.461Z",
+        "updated_at": "2023-09-08T14:15:24.799Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0d61673-f3f1-44e5-83ee-c045f906c9aa",
+        "uid": "09876",
+        "name": "Agent D",
+        "system_prompt": "How can I be of service?",
+        "context": "Technical",
+        "domain": "Education",
+        "target": "Visitors",
+        "goal": "Provide solutions",
+        "extra_prompts": "Is there anything specific you need assistance with?",
+        "created_at": "2023-09-08T12:03:38.144Z",
+        "updated_at": "2023-09-08T11:39:12.638Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c11793bd-9714-4269-8809-839b80f97442",
+        "uid": "13579",
+        "name": "Agent E",
+        "system_prompt": "Greetings! How can I assist?",
+        "context": "Marketing",
+        "domain": "Travel",
+        "target": "Subscribers",
+        "goal": "Improve user experience",
+        "extra_prompts": "Let me know if there's anything else I can do for you.",
+        "created_at": "2023-09-08T05:43:51.546Z",
+        "updated_at": "2023-09-08T01:03:21.565Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "instance": [
+      {
+        "id": "b7eed185-4f5b-48a8-b0f6-abfb25a93cf1",
+        "name": "Instance A",
+        "whatsapp_number": "+1234567890",
+        "webhook_url": "https://example.com/webhookA",
+        "qr_code_url": "https://example.com/qr_codeA",
+        "created_at": "2023-09-08T17:19:53.954Z",
+        "updated_at": "2023-09-08T05:59:51.305Z",
+        "agent_id": "66243d5a-2167-4250-bc94-c2b4a64958fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67e238a8-9eb7-4873-9d60-600b0ee06412",
+        "name": "Instance B",
+        "whatsapp_number": "+9876543210",
+        "webhook_url": "https://example.com/webhookB",
+        "qr_code_url": "https://example.com/qr_codeB",
+        "created_at": "2023-09-08T04:59:46.368Z",
+        "updated_at": "2023-09-07T21:17:43.491Z",
+        "agent_id": "564b4572-040d-40d6-b289-a38d94ebd3f5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db27ecd6-3d9c-4d4c-b145-832c60d6b239",
+        "name": "Instance C",
+        "whatsapp_number": "+2468135790",
+        "webhook_url": "https://example.com/webhookC",
+        "qr_code_url": "https://example.com/qr_codeC",
+        "created_at": "2023-09-08T06:26:00.925Z",
+        "updated_at": "2023-09-08T10:25:15.513Z",
+        "agent_id": "f0d61673-f3f1-44e5-83ee-c045f906c9aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2800426-c06c-45aa-931b-43d831f109af",
+        "name": "Instance D",
+        "whatsapp_number": "+1357924680",
+        "webhook_url": "https://example.com/webhookD",
+        "qr_code_url": "https://example.com/qr_codeD",
+        "created_at": "2023-09-08T01:36:34.807Z",
+        "updated_at": "2023-09-08T16:49:34.856Z",
+        "agent_id": "c11793bd-9714-4269-8809-839b80f97442",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b8451f9-5ae3-419b-bc3f-c6de5fc47a6e",
+        "name": "Instance E",
+        "whatsapp_number": "+8642097531",
+        "webhook_url": "https://example.com/webhookE",
+        "qr_code_url": "https://example.com/qr_codeE",
+        "created_at": "2023-09-08T00:42:15.736Z",
+        "updated_at": "2023-09-08T00:56:55.829Z",
+        "agent_id": "0a3e1d22-ccb4-41ab-b4d8-d8e2a064c00d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "792a791a-a29d-4425-9298-16d0f72d926b",
+        "email": "Jewel_Wuckert@yahoo.com",
+        "firstName": "Hailee",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28682889",
+        "tenantId": null
+      },
+      {
+        "reference": "d95f2740-bb58-4066-b2bf-df2f832787ef",
+        "email": "Lindsey.Davis@yahoo.com",
+        "firstName": "Alexie",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/274.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2152508d-7963-4ba4-ae94-af197fd41dd0",
+        "email": "Wava14@gmail.com",
+        "firstName": "Ian",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4671850",
+        "tenantId": null
+      },
+      {
+        "reference": "f2c7e41d-a311-4c90-a943-2ab377e7183f",
+        "email": "Jaylin.Monahan@gmail.com",
+        "firstName": "Madelynn",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18477347",
+        "tenantId": null
+      },
+      {
+        "reference": "d3e970ce-a43e-4e2b-a28d-0b74fdc5c3ec",
+        "email": "Nayeli.Rice-Langworth63@yahoo.com",
+        "firstName": "Karl",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/363.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
